@@ -23,8 +23,8 @@ Query expansion is performed using **Gemini Flash 3.5**, which generates additio
 ```
 
 ### Note
-- scifact_corpus_embeddings.npy contains the embeddings for the corpus to avoid redundant execution, to be able to open the file when embeddings are needed.
-- scifact_gemini_expanded_queries.csv contains the expanded queries using Gemini Flash 3.5. Expansions are saved in order to avoid redundancy.
+- **scifact_corpus_embeddings.npy** contains the embeddings for the corpus to avoid redundant execution, to be able to open the file when embeddings are needed.
+- **scifact_gemini_expanded_queries.csv** contains the expanded queries using Gemini Flash 3.5. Expansions are saved in order to avoid redundancy.
 ## Dataset
 
 - **Dataset:** SciFact
