@@ -19,12 +19,14 @@ Query expansion is performed using **Gemini Flash 3.5**, which generates additio
 ├── sparse_retrieval.ipynb
 ├── scifact_corpus_embeddings.npy
 ├── scifact_gemini_expanded_queries.csv
+├── data
 └── README.md
 ```
 
 ### Note
 - **scifact_corpus_embeddings.npy** contains the embeddings for the corpus to avoid redundant execution, to be able to open the file when embeddings are needed.
 - **scifact_gemini_expanded_queries.csv** contains the expanded queries using Gemini Flash 3.5. Expansions are saved in order to avoid redundancy.
+- The folder **data** contains saved attributes from **sparse_retrieval.ipynb** that may be used in future projects.
 ## Dataset
 
 - **Dataset:** SciFact
