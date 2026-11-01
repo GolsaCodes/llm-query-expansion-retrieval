@@ -1,4 +1,4 @@
-# LLM-Based Query Expansion for Dense and Sparse Retrieval
+# An Empirical Study of LLM-Based Query Expansion in Dense and Sparse Retrieval
 
 ## Overview
 
